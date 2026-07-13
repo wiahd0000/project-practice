@@ -1,0 +1,217 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.img img{
+  width: 400px;
+}
+
+.page-one{
+  display: flex;
+  gap: 4rem;
+  background-color: rgb(15, 14, 14);
+  width: 100%;
+  height: 700px;
+ padding: 4rem 2rem;
+ justify-content: center;
+ align-items: center;
+
+}
+
+.text-one{
+  width:60%;
+}
+
+.text-one h1{
+  color: white;
+  font-size: 2rem;
+}
+
+.text-one label{
+  color: white;
+  font-size: 20px;
+}
+
+.text-one p{
+  margin-top: 2rem;
+  color: white;
+  font-size: 1.5rem;
+  text-align: justify;
+}
+
+.text-one button{
+  width: 150px;
+  border: none;
+  background-color: red;
+  height: 50px;
+  border-radius: 2rem;
+  color: white;
+  margin-top: 12px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* styling of the skill section */
+.skill-page{
+  background-color: black;
+  width: 100%;
+  height: 400px;
+  justify-content: center;
+  gap: 4rem;
+  color: white;
+  text-align: center;
+ 
+}
+
+.skill-page label{
+  color: white;
+  font-size: 4rem;
+}
+
+.skills{
+  display: flex;
+  gap: 4rem;
+  justify-content: center;
+  margin-top: 2rem;
+ 
+}
+.box-one{
+width: 350px;
+/* margin-top: 4rem; */
+text-align: justify;
+background-color: rgb(58, 48, 48);
+height: 250px;
+padding: 2rem 1rem;
+box-shadow: 1px 2px 5px white;
+}
+
+.box-one p{
+  margin-top: 8px;
+  font-size: 18px;
+}
+
+.box-one button{
+  margin-top: 15px;
+  width: 130px;
+  height: 40px;
+  background-color: red;
+  border-radius: 2rem;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+/*project section */
+
+.project{
+  background-color: rgb(29, 25, 25);
+  width: 100%;
+  height: 400px;
+  color: white;
+  padding: 2rem 4rem;
+}
+
+.project .pro{
+padding: 2rem 15rem;
+font-size: 1.5rem;
+text-align: justify;
+}
+
+.pro h3{
+  text-align: center;
+  font-size: 40px;
+}
+
+.pro p{
+  margin-top: 2rem;
+}
+
+.pro button{
+  width: 150px;
+  height: 40px;
+  margin-top: 2rem;
+  background: none;
+  outline: none;
+  background-color: red;
+  border: none;
+  border-radius: 2rem;
+  color: white;
+  font-size: 18px;
+}
+
+/* testimony section */
+.testimony{
+  background: linear-gradient(to right, rgb(8, 1, 1), rgb(19, 9, 9));
+  display: flex;
+  gap: 8rem;
+  justify-content: center;
+  padding-top: 4rem;
+  width: 100%;
+  height: 750px;
+}
+
+
+.testimony-one{
+  color: white;
+  width: 350px;
+  margin-top: 4rem;
+}
+
+.testimony-one h4{
+  text-align: center;
+  font-size: 30px;
+}
+
+.testimony-one img{
+  width: 350px;
+  border-radius: 50%;
+  margin-top: 2rem;
+ 
+}
+
+.testimony-one p{
+  font-size: 22px;
+  text-align: justify;
+  margin-bottom: 1rem;
+}
+
+.testimony-one label{
+  font-size: 30px;
+}
+
+
+span{
+  color: gold;
+  font-weight: bold;
+}
+
+/* footer stylihng */
+footer{
+  background-color: rgb(127, 121, 206);
+  display: flex;
+  gap: 4rem;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.contact-one{
+  width: 350px;
+}
+
+.contact-one h5{
+  font-size: 30px;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
+.contact-one p{
+  margin-top: 0.5rem;
+  font-size: 20px;
+}
+
+.contact-one i{
+  font-size: 3rem;
+color: rgb(1, 1, 32);
+}
