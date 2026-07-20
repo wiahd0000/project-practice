@@ -10,13 +10,28 @@
 
   <!-- css link -->
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.2.0/css/all.min.css" integrity="sha512-F/yRpRY8sctKzP7exU5PLGejwg/QtjDX6CIy/41nApe7JqdZgCcCzJTNq9Rcp/XwbeeTGillGevBakruY15pxA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.0/css/all.min.css"/>
   <!-- google icons link -->
 </head>
 
 <body>
   <main class="container">
-    <section class="page-one">
+    <!-- <div class="toggle">
+      <a href="#"><i class="fa-solid fa-bars"></i></a>
+    </div> -->
+
+    <nav class="navbar">
+<!-- <a href="#"><i class="fa-solid fa-computer"></i></a> -->
+     <div>
+       <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#project">Project</a></li>
+        <li><a href="#testimony">Testimony</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+     </div>
+    </nav>
+    <section id="about" class="page-one">
       <div class="img">
         <img src="about.jpeg" alt="">
       </div>
@@ -30,7 +45,7 @@
           quibusdam neque veniam sit voluptatem reiciendis velit aut officia odio porro error nulla non quaerat eum
           repellat officiis deleniti eligendi deserunt! Cum vel adipisci nisi porro necessitatibus exercitationem
           ratione doloremque saepe dicta nobis beatae et eum ducimus corrupti ipsam, perspiciatis, praesentium iure! Ex
-          molestias nemo in omnis sunt accusantium nulla unde, eius obcaecati expedita esse sapiente animi, velit itaque
+          molestia s nemo in omnis sunt accusantium nulla unde, eius obcaecati expedita esse sapiente animi, velit itaque
           veniam dolorem quae. Dignissimos animi esse fuga inventore consectetur accusantium vitae recusandae voluptatem
           accusamus nobis dolorem quod ipsa ut, quia sequi impedit dolores.
         </p>
@@ -40,7 +55,7 @@
     </section>
 
     <!-- second section -->
-    <section class="skill-page">
+    <section id="project" class="skill-page">
       <label class=skill>My skills</label>
       <div class="skills">
         <div class="box-one">
@@ -67,7 +82,7 @@
     </section>
 
     <!-- Third section -->
-    <section class="project">
+    <section id="testimony" class="project">
       <div class="pro">
         <h3>My story</h3>
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia minus eveniet iure aliquid possimus!
@@ -109,7 +124,7 @@
   </main>
 
   <footer>
-    <div class="contact-one">
+    <div id="contact" class="contact-one">
       <h5>Our products</h5>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores tempora impedit</p>
       <a href="#"><i class="fa-brands fa-facebook"></i></a>
